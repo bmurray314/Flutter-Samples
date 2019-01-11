@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+    @orverride                                     
+    Widget build(BuildContext context){
+        Widget return
+            Container(
+                child: Text(
+                    "Hello World",
+                    textDirection: TextDirection.ltr,
+                    textAlign: TextAlign.center,
+                ),
+                height: 48.0,
+                width: 55.0,
+                color: Colors.blue,
+                margin: EdgeInsets.all(10.0), //creates offsets from the edge of the child to the end of the container
+            );
+    }
+} //end of class 'MyApp' - stateless widget
