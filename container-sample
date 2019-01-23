@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
                 width: 55.0,
                 color: Colors.blue,
                 margin: EdgeInsets.all(10.0), //creates offsets from the edge of the child to the end of the container
+                decoration: BoxDecoration(color: Colors.blue),
             );
     }
 } //end of class 'MyApp' - stateless widget
