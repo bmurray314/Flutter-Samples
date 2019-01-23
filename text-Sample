@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
                 "Hello World",
                 textDirection: TextDirection.ltr,
                 textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 40.0, color: Colors.blue),
             );                                      //always add a semi-colon at the end of the return command
     }
 } //end of class 'MyApp' - stateless widget
