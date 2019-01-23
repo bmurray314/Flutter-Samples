@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+    //'@override' is needed for every build method since you are overriding the build method in the parent class 'StatelessWidget'
+    @orverride                                     
+    Widget build(BuildContext context){
+        return Column(
+            children: <Widget>[
+            Text("This is the first row in the widget."),
+            Text("This is the second row in the widget."),
+            Text("This is the third row in the widget.")
+            ],
+            
+        );
+                                              
+    }
+} //end of class 'MyApp' - stateless widget
